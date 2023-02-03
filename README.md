@@ -1,5 +1,5 @@
-<img align="center" width="49%" src="./base.svg" />
-<img align="center" width="49%" src="./fullyear.svg" />
+<img align="center" src="./base.svg" />
+<img align="center" src="./fullyear.svg" />
 
 <!-- <img align="center" src="./most-used-lang.svg" /> -->
 
