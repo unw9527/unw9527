@@ -40,10 +40,13 @@ jobs:
     steps:
     - uses: lowlighter/metrics@latest
       with:
-        filename: metrics.plugin.lines.svg
+        filename: lines-history.svg
         token: ${{ secrets.METRICS_TOKEN }}
-        base: repositories
+        base: ""
         plugin_lines: yes
+        plugin_lines_sections: repositories, history
+        plugin_lines_repositories_limit: 4
+        plugin_lines_history_limit: 1
 
   most-used-lang:
     runs-on: ubuntu-latest
