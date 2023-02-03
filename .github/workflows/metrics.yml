@@ -7,23 +7,28 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-#   github-metrics:
-#     runs-on: ubuntu-latest
-#     permissions:
-#       contents: write
-#     steps:
-#       - uses: lowlighter/metrics@latest
-#         with:
-#           token: ${{ secrets.METRICS_TOKEN }}
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
   metrics-lang-noable:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          user: ganler
+          base: ''
+          base_indepth: yes
+          filename: metrics-lang-notable.svg
+          template: classic
+          repositories: 320
+          repositories_batch: 80
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, less, dockerfile, makefile, qmake, lex, cmake,
