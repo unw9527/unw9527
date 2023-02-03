@@ -1,10 +1,21 @@
-<img align="center" src="./base.svg" />
-<img align="center" src="./fullyear.svg" />
+<div>
+  <img width="49%" src="./base.svg" />
+  <picture width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo&hide_border=true" />
+  </picture>
+</div>
 
-<!-- <img align="center" src="./most-used-lang.svg" /> -->
+<img src="./fullyear.svg" />
 
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
-<!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight)](https://git.io/streak-stats) -->
+<!-- <div align="center">
+  <img  width="49%" src="./base.svg" />
+  <img  width="49%" src="./fullyear.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
+  </picture>
+</div> -->
 
 ![](https://komarev.com/ghpvc/?username=unw9527&style=for-the-badge&color=blue)
 
