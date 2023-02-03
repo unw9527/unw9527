@@ -14,16 +14,20 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: base.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, community
+
     
   calendar-view:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      # must have this permission!!
+      contents: write 
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
+          filename: fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -40,9 +44,14 @@ jobs:
           user: unw9527
           base: ''
           base_indepth: yes
-          filename: metrics.plugin.most-used-lang.svg
+          filename: most-used-lang.svg
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, less, dockerfile, makefile, qmake, lex, cmake,
             gnuplot
+          plugin_languages_sections: most-used
           plugin_languages_limit: 6
+          plugin_languages_details: percentage
+          plugin_languages_indepth: no
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: programming
