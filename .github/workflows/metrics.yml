@@ -7,7 +7,18 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-  metrics-lang-noable:
+  calendar-view:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  most-used-lang:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -16,13 +27,9 @@ jobs:
           user: unw9527
           base: ''
           base_indepth: yes
-          filename: metrics-lang-notable.svg
-          template: classic
-          repositories: 320
-          repositories_batch: 80
+          filename: metrics.plugin.most-used-lang.svg
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, less, dockerfile, makefile, qmake, lex, cmake,
             gnuplot
-          plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_limit: 6
