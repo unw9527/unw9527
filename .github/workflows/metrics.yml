@@ -17,7 +17,6 @@ jobs:
           filename: base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, community
-
     
   calendar-view:
     runs-on: ubuntu-latest
@@ -32,6 +31,19 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+  
+  line-contribution:
+    runs-on: ubuntu-latest
+    permissions:
+      # must have this permission!!
+      contents: write 
+    steps:
+    - uses: lowlighter/metrics@latest
+      with:
+        filename: metrics.plugin.lines.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: repositories
+        plugin_lines: yes
 
   most-used-lang:
     runs-on: ubuntu-latest
