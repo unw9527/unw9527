@@ -1,6 +1,6 @@
 |<img  src="./base.svg" />|<img  src="./fullyear.svg" />|
 |---|---|
-<picture>
+<picture width="50%">
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
 </picture>
