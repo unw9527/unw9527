@@ -16,7 +16,7 @@ jobs:
         with:
           filename: base.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, community
+          base: header
     
   calendar-view:
     runs-on: ubuntu-latest
