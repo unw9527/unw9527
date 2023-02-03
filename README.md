@@ -1,22 +1,20 @@
+<div>
+  <img src="./base.svg" />
+  <br>
+  <img src="./fullyear.svg" />
+  <br>
+  <picture style="width: 49%;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo&hide_border=true" />
+  </picture>
+</div>
+
 <!-- |<img  src="./base.svg" />|<img  src="./fullyear.svg" />|
 |---|---|
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
 </picture> -->
-
-
-
-<div>
-  <img src="./base.svg" />
-  <img src="./fullyear.svg" />
-  <picture style="width: 49%;">
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo&hide_border=true" />
-  </picture>
-</div>
-
-
 
 ![](https://komarev.com/ghpvc/?username=unw9527&style=for-the-badge&color=blue)
 
