@@ -7,17 +7,19 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-  basic-info:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, community
     
   calendar-view:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -29,6 +31,8 @@ jobs:
 
   most-used-lang:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
