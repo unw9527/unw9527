@@ -1,4 +1,12 @@
-<div>
+|<img  src="./base.svg" />|<img  src="./fullyear.svg" />|
+|---|---|
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
+</picture>
+
+
+<!-- <div>
   <img width="49%" src="./base.svg" />
   <picture width="49%">
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
@@ -6,16 +14,7 @@
   </picture>
 </div>
 
-<img src="./fullyear.svg" />
-
-<!-- <div align="center">
-  <img  width="49%" src="./base.svg" />
-  <img  width="49%" src="./fullyear.svg" />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
-  </picture>
-</div> -->
+<img src="./fullyear.svg" /> -->
 
 ![](https://komarev.com/ghpvc/?username=unw9527&style=for-the-badge&color=blue)
 
