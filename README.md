@@ -1,3 +1,5 @@
+> Most people overestimate what they can do in a day, and underestimate what they can do in a year.
+
 <div>
   <img src="./base.svg" />
   <br>
