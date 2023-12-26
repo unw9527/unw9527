@@ -2,23 +2,7 @@
 
 <div>
   <img src="./base.svg" />
-  <br>
-  <img src="./fullyear.svg" />
-  <br>
-  <picture style="width: 49%;">
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight&hide_border=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo&hide_border=true" />
-  </picture>
 </div>
-
-<!-- |<img  src="./base.svg" />|<img  src="./fullyear.svg" />|
-|---|---|
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=unw9527&theme=tokyonight_duo" />
-</picture> -->
-
-![](https://komarev.com/ghpvc/?username=unw9527&style=for-the-badge&color=blue)
 
 
 <!-- ### Hi there 👋 -->
@@ -26,14 +10,16 @@
 <!--
 **unw9527/unw9527** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Here are some ideas to get you started: -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 Graduate student (MCDS Systems Track) at School of Computer Science, Carnegie Mellon University.
+- 🌱 Interested in building systems and various tools.
+- 👯 Previously an intern at Networking Infrastructure Group (a.k.a NRG), [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
+- 🤔 Prior to MSRA, I had been working on developing a [fully automatic tool](https://github.com/xlab-uiuc/acto) to detect flaws and errors in Kubernetes operators at [xlab](https://github.com/xlab-uiuc).
+- 💬 Also did some [research and engineering work](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_41) on 3D semantic segmentation early in my undergrad years.
+- 📫 How to reach me: kunlel at andrew dot cmu dot edu
+- ⚡ Misc: Sports (Triple jump; Badminton; Gym); Movies; Travel; Reading
+<!-- - 😄 Pronouns: ... -->
+
+
+![](https://komarev.com/ghpvc/?username=unw9527&style=for-the-badge&color=blue)
