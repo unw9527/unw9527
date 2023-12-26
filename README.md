@@ -18,7 +18,7 @@ Here are some ideas to get you started: -->
 - 🤔 Prior to MSRA, I had been working on developing a [fully automatic tool](https://github.com/xlab-uiuc/acto) to detect flaws and errors in Kubernetes operators at [xlab](https://github.com/xlab-uiuc).
 - 💬 Also did some [research and engineering work](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_41) on 3D semantic segmentation early in my undergrad years.
 - 📫 How to reach me: kunlel at andrew dot cmu dot edu
-- ⚡ Misc: Sports (Triple jump; Badminton; Gym); Movies; Travel; Reading
+- ⚡ Misc: Sports ([Triple jump](https://unw9527.github.io/antiques/subpage/triple-jump.html); [Badminton](https://unw9527.github.io/antiques/subpage/badminton.html); Gym); Movies; Reading; Travel
 <!-- - 😄 Pronouns: ... -->
 
 
