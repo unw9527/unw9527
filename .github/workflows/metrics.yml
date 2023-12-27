@@ -18,35 +18,35 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
     
-  calendar-view:
-    runs-on: ubuntu-latest
-    permissions:
-      # must have this permission!!
-      contents: write 
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+  # calendar-view:
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     # must have this permission!!
+  #     contents: write 
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: fullyear.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         base: ""
+  #         plugin_isocalendar: yes
+  #         plugin_isocalendar_duration: full-year
   
-  line-contribution:
-    runs-on: ubuntu-latest
-    permissions:
-      # must have this permission!!
-      contents: write 
-    steps:
-    - uses: lowlighter/metrics@latest
-      with:
-        filename: lines-history.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_lines: yes
-        plugin_lines_sections: repositories, history
-        plugin_lines_repositories_limit: 4
-        plugin_lines_history_limit: 1
+  # line-contribution:
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     # must have this permission!!
+  #     contents: write 
+  #   steps:
+  #   - uses: lowlighter/metrics@latest
+  #     with:
+  #       filename: lines-history.svg
+  #       token: ${{ secrets.METRICS_TOKEN }}
+  #       base: ""
+  #       plugin_lines: yes
+  #       plugin_lines_sections: repositories, history
+  #       plugin_lines_repositories_limit: 4
+  #       plugin_lines_history_limit: 1
 
   most-used-lang:
     runs-on: ubuntu-latest
