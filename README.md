@@ -14,10 +14,10 @@ Here are some ideas to get you started: -->
 
 - :school: Graduate student (MCDS Systems Track) at School of Computer Science, Carnegie Mellon University.
 - :round_pushpin: Interested in building systems and various tools.
-- :battery: Previously an intern at Networking Infrastructure Group (a.k.a NRG), [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
+- :battery: Previously an intern at Networking Infrastructure Group (a.k.a. NRG), [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSRA). 
 - :hammer_and_wrench: Prior to working at MSRA, I had been developing a [fully automatic tool](https://github.com/xlab-uiuc/acto) to detect flaws and errors in Kubernetes operators at [xlab](https://github.com/xlab-uiuc).
 - :open_file_folder: Also did some [research and engineering work](https://github.com/huiminxiong/TSegFormer) on 3D semantic segmentation early in my undergrad years.
-- :incoming_envelope: Contact: kunlel at andrew dot cmu dot edu
+- :incoming_envelope: Contact: kunlel at cs dot cmu dot edu
 - :sunny: Misc: Sports ([Triple jump](https://unw9527.github.io/antiques/subpage/triple-jump.html); [Badminton](https://unw9527.github.io/antiques/subpage/badminton.html); Gym); Movies; Reading; Travel
 <!-- - 😄 Pronouns: ... -->
 
