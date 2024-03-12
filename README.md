@@ -18,7 +18,7 @@ Here are some ideas to get you started: -->
 - :hammer_and_wrench: Prior to MSRA, I had been working on a [fully automatic tool](https://github.com/xlab-uiuc/acto) to detect flaws and errors in Kubernetes operators at [xlab](https://github.com/xlab-uiuc).
 - :open_file_folder: Also did some [research and engineering work](https://github.com/huiminxiong/TSegFormer) on 3D semantic segmentation early in my undergrad years.
 - :incoming_envelope: Contact: kunlel at cs dot cmu dot edu
-- :sunny: Misc: Sports ([Triple jump](https://unw9527.github.io/antiques/subpage/triple-jump.html); [Badminton](https://unw9527.github.io/antiques/subpage/badminton.html); Gym); Movies; Reading; Travel; Poker
+- :sunny: Misc: Sports ([Triple jump](https://unw9527.github.io/antiques/subpage/triple-jump.html); [Badminton](https://unw9527.github.io/antiques/subpage/badminton.html); Gym); [Movies](https://unw9527.github.io/antiques/subpage/movies.html); Reading; Travel
 <!-- - 😄 Pronouns: ... -->
 
 
