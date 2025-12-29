@@ -14,7 +14,7 @@ Here are some ideas to get you started: -->
 
 - :office: Software Engineer @Snowflake.
 - :lock: Prev @SingleStore (Database Engine); @Microsoft (MSRA). 
-- :school: Graduated with Master of Computational Data Science (MCDS@CMU SCS, Systems Track) from Carnegie Mellon University.
+<!-- - :school: Graduated with Master of Computational Data Science (MCDS@CMU SCS, Systems Track) from Carnegie Mellon University. -->
 - :round_pushpin: Interested in building systems and various tools.
 - :hammer_and_wrench: Past projects:
   - [BusTub](https://github.com/cmu-db/bustub) and [Parpulse](https://github.com/cmu-db/15721-s24-cache1): CMU database projects
